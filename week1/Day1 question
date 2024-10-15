@@ -1,0 +1,32 @@
+Why are we using source control in this class?
+we are using Git so that we can have a "backup" of our code living off the virtual machines in case our VM dies, and so that we can have a copy of our code after the class is over.
+
+How is source control used by teams of developers working on the same code base?
+Teams of developers use source control to have many developers collaborate on the same code base. 
+Parallel versions of the code base are "cloned" on each developers machine and changes are periodically 
+integrated into the shared copy ("origin") version of the code base. 
+There are many strategies for keeping the code base integrated, including branching strategies and 
+trunk-based development. 
+
+What is meant by the "origin" in the repository?
+"Origin" is a conventional term to "knight" or "bless" a single copy (clone) of a repository as the one that is authoritative. Git has no concept of this inherent in it's design. It's all anarchy, hippy free-love. Every copy of the repository is just as good as another, but when humans work, we need one to be sort of "in charge".
+
+Why do we create commits locally?
+We create commits locally in preparation for merging our code into the origin. 
+Local commits give us lots of things - like an "undo" history should we need to back out of a coding decision, 
+but also serve as documentation for the code changes we've made.
+
+Why do we push those commits to GitHub?
+The commits are pushed to github to integrate them into the origin copy so other developers 
+have access to our code. Some repositories require you to create a special request to the owners of the 
+repository called a "pull request" that gives the repository owners a chance to review your commits 
+before integrating them into the origin's main branch.
+
+What were the steps, as detailed as you like, that we took to create our repository and push it to Github.
+Git init command, added the existing code to the "staged" section of git with git add ., 
+and then created a local commit git commit -m "Commit Message". 
+Use used the Github CLI (Command Line Interface) to create a repository under our Github accounts 
+and push our commits to that repository. (gh repo create).
+
+What is meant by the term "Service" in software development?
+Service is just a thingy that does stuff

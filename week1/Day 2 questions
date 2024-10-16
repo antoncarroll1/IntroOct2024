@@ -1,0 +1,28 @@
+What is your understanding of what is meant by the term "Assembly" in .NET?
+An assembly is a compiled code library (.dll or .exe) in .NET that contains reusable code and 
+resources.
+
+What is the relationship between an assembly and a Visual Studio project?
+Each project in Visual Studio builds into one assembly. 
+
+What is a solution in Visual Studio?
+A solution is a container that holds multiple related projects, helping developers manage and organize them under one structure.
+
+What are the two types of Assemblies discussed in class?
+
+Private and Shared Assemblies
+
+What makes an assembly "Runnable" – What is the entry point of an Assembly?
+The entry point is the Main method, which tells the application where to start execution.
+
+What is the "Common Language Runtime (CLR)"?
+The CLR is the runtime environment that manages the execution of .NET programs, handling tasks like memory management, exception handling, and garbage collection.
+
+What is "Dotnet Core"? What's that all about?
+.NET Core is a cross-platform version of .NET, allowing applications to run on Windows, macOS, and Linux. 
+
+What is the Common Type System (CTS)?
+The CTS ensures that different .NET languages (like C#, VB.NET, and F#) use the same data types, making it easier to share code between languages.
+
+What are the "First Class Citizens" of .NET?
+Classes, structs, interfaces, and enums are considered the first-class citizens because they represent core building blocks of applications and are fully supported by the CLR.
